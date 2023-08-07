@@ -10,6 +10,10 @@
                 var btn=document.createElement("span");
                 btn.innerHTML="x";
                 list.appendChild(btn);
+                btn.onclick=function(){
+                    btn.style.display="none";
+                    list.style.display="none";
+                }
             }
         </script>
         <style>
