@@ -18,18 +18,21 @@
         </script>
         <style>
             body{
-                background:linear-gradient(rgb(45, 6, 61),rgb(100, 13, 100));
+                background:linear-gradient(rgb(232, 106, 67),rgb(218, 79, 20));
                 cursor: pointer;
+                background-image: url("https://tse4.mm.bing.net/th?id=OIP.84IpsZX4Gu7oVqT6QhLilwHaD4&pid=Api&P=0&h=180");
+                background-size: cover;
+                background-repeat: no-repeat;
             }
             .container{
                 background-color: white;
                 width: 400px;
-                height: 400px;
+                height: fit-content;
                 border-radius: 10px;
                 padding: 10px;
                 position: fixed;
-                margin-left: 500px;
-                margin-top: 100px;
+                margin-left: 200px;
+                margin-top: 150px;
             }
             .div-container input{
                 width: 200px;
@@ -38,7 +41,7 @@
                 background-color: rgb(246, 241, 241);
             }
             .div-container button{
-                background-color: rgb(238, 58, 58);
+                background-color: rgb(227, 139, 173);
                 color: white;
                 padding: 6px;
                 border-radius: 20px;
@@ -73,11 +76,11 @@
             }
             span{
                 margin-left: 220px;
-                border-radius: 9px;
-                font-size: 29px;
+                border-radius: 90%;
+                font-size: 39px;
             }
-            span:hover{
-                background-color: rgb(217, 214, 214);
+            li:hover{
+                text-decoration: line-through;
             }
         </style>
     </head>
@@ -88,8 +91,10 @@
             <input type="text" id="note" placeholder="type here...........">
             <button onclick="assign()" class="btn">Add</button>
             </div>
+            <div class="listcon">
             <ul id="list-container">
-            </ul>
+
+            </ul></div>
         </div>
     </body>
 </html>
